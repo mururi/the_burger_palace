@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 header {
@@ -43,4 +44,34 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+.container {
+  background: -webkit-linear-gradient(-10deg, #f3f1eb 65%, #fdcd3b 60%);
+  background: -moz-linear-gradient(-10deg, #f3f1eb 60%, #fdcd3b 60%);
+  background-color: linear-gradient(-10deg, #f3f1eb 60%, #fdcd3b 60%);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  flex: 50%;
+  padding: 50px;
+}
+
+.column img {
+  max-width: 60%;
+  height: auto;
+}
+
+.cta {
+  color: white;
+  padding: 15px;
+  background-color: darkorange;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
 }

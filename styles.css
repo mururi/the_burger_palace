@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+}
+nav {
+  background: none;
+  height: 80px;
+  float: right;
+}
+
+label.logo {
+  color: black;
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin-left: 30px;
+  position: relative;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 18px;
+}
+
+.logo {
+  float: left;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: darkorange;
+  position: absolute;
+  width: 0%;
+  top: 75px;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}

@@ -1,45 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
   padding: 0;
   margin: 0;
-  font-family: 'Poppins';
-}
-nav {
-  background: none;
-  height: 80px;
-  float: right;
+  font-family: 'Poppins', sans-serif;
 }
 
-label.logo {
-  color: black;
-  font-family: 'Oleo Script', Helvetica, sans-serif;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
-nav ul {
-  float: right;
-  margin-right: 20px;
+.logo {
+  cursor: pointer;
 }
 
 nav ul li {
   display: inline-block;
   line-height: 80px;
-  margin-left: 30px;
+  margin-left: 40px;
   position: relative;
 }
 
 nav ul li a {
   color: black;
   font-size: 18px;
-}
-
-.logo {
-  float: left;
+  text-decoration: none;
 }
 
 nav a::before {
@@ -49,7 +37,7 @@ nav a::before {
   background-color: darkorange;
   position: absolute;
   width: 0%;
-  top: 75px;
+  top: 60px;
   transition: all ease-in-out 250ms;
 }
 

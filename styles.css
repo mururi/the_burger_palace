@@ -162,6 +162,8 @@ nav a:hover::before {
 .menu h3 {
   display: block;
   text-align: center;
+  font-size: 80px;
+  font-weight: 700;
 }
 
 .menu_container {
@@ -173,11 +175,11 @@ nav a:hover::before {
 }
 
 .menu_item {
-  height: auto;
+  height: 750px;
   width: 500px;
-  padding: 20px 35px;
-  box-shadow: 5px 10px;
-  border-radius: 40px;
+  padding: 100px 45px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.5);
+  border-radius: 70px;
   margin: 30px;
   position: relative;
   overflow: hidden;
@@ -186,23 +188,45 @@ nav a:hover::before {
 }
 
 .menu_item h4 {
-  display: inline;
+  font-size: 40px;
+  color: rgb(68, 4, 4);
+  font-weight: 600;
+  padding: 25px 0px 25px 0px;
 }
 
-.menu_item i {
-  font-size: 20px;
-  display: inline;
+.menu_item p {
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .menu_item img {
   max-height: 200px;
 }
 
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 15px 40px 40px;
+  align-items: center;
+}
+
+.price h5 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.price img {
+  background-color: #E1EBE6;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
+
 /*Carousel Section Styles*/
 .carousel {
   display: flex;
-
   background-color: #E1EBE6;
+  padding: 100px 5% 100px 5%;
+  align-items: center;
 }
 
 .carousel div {
@@ -210,6 +234,22 @@ nav a:hover::before {
 
 }
 
+.carousel div h2 {
+  font-weight: 700;
+  font-size: 100px;
+  padding-bottom: 20px;
+}
+
+.carousel div p {
+  color: rgb(73, 73, 73);
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 150px;
+}
+
+.carousel div i {
+  padding-right: 25px;
+}
 .carousel div img {
-  width: 200px;
+  width: auto;
 }

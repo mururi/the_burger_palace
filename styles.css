@@ -284,6 +284,7 @@ nav a:hover::before {
   justify-content: space-between;
   padding: 50px 5% 100px 5%;
   align-items: center;
+  background-color: #E1EBE6;
 }
 
 .footer1 div h6 {
@@ -296,4 +297,18 @@ nav a:hover::before {
   padding-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5% 5px 5%;
+  align-items: center;
+  background-color: #fff;
+}
+
+.footer2 li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 15px;
 }

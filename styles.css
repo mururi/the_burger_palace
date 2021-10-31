@@ -107,6 +107,7 @@ nav a:hover::before {
 
 /*Menu items styles*/
 .menu {
+  background-color: #fff;
   padding: 100px 0px;
 }
 .menu h3 {
@@ -115,7 +116,6 @@ nav a:hover::before {
 }
 
 .menu_container {
-  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -124,18 +124,32 @@ nav a:hover::before {
 }
 
 .menu_item {
-  height: 365px;
+  height: auto;
   width: 335px;
   padding: 20px 35px;
   box-shadow: 5px 10px;
-  border-radius: 20px;
-  margin: 15px;
+  border-radius: 40px;
+  margin: 30px;
   position: relative;
   overflow: hidden;
   text-align: center;
+  
 }
 
+.menu_item h4 {
+  display: inline;
+}
+
+.menu_item i {
+  font-size: 20px;
+  display: inline;
+}
 
 .menu_item img {
   max-height: 200px;
+}
+
+/*Carousel Section Styles*/
+.carousel {
+  background-color: #E1EBE6;
 }

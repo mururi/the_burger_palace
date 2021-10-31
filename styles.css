@@ -67,6 +67,7 @@ nav a:hover::before {
   max-width: 60%;
   height: auto;
   border: 2px solid black;
+  margin-left: 200px;
 }
 
 .cta {
@@ -125,7 +126,7 @@ nav a:hover::before {
 
 .menu_item {
   height: auto;
-  width: 335px;
+  width: 500px;
   padding: 20px 35px;
   box-shadow: 5px 10px;
   border-radius: 40px;
@@ -151,5 +152,16 @@ nav a:hover::before {
 
 /*Carousel Section Styles*/
 .carousel {
+  display: flex;
+
   background-color: #E1EBE6;
+}
+
+.carousel div {
+  width: 50%;
+
+}
+
+.carousel div img {
+  width: 200px;
 }

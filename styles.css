@@ -21,7 +21,7 @@ header {
 nav ul li {
   display: inline-block;
   line-height: 80px;
-  margin-left: 40px;
+  margin-left: 120px;
   position: relative;
 }
 
@@ -29,6 +29,7 @@ nav ul li a {
   color: black;
   font-size: 18px;
   text-decoration: none;
+  font-weight: 600;
 }
 
 nav a::before {
@@ -47,9 +48,9 @@ nav a:hover::before {
 }
 
 .container {
-  background: -webkit-linear-gradient(-10deg, #f3f1eb 65%, #fdcd3b 60%);
-  background: -moz-linear-gradient(-10deg, #f3f1eb 60%, #fdcd3b 60%);
-  background-color: linear-gradient(-10deg, #f3f1eb 60%, #fdcd3b 60%);
+  background: -webkit-linear-gradient(-10deg, #f3f1eb 55%, #fdcd3b 45%);
+  background: -moz-linear-gradient(-10deg, #f3f1eb 55%, #fdcd3b 45%);
+  background-color: linear-gradient(-10deg, #f3f1eb 55%, #fdcd3b 45%);
 }
 
 .row {

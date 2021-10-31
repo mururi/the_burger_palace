@@ -253,3 +253,28 @@ nav a:hover::before {
 .carousel div img {
   width: auto;
 }
+
+.mobile_app {
+  display: flex;
+  background-color: #F6B400;
+  padding: 100px 5% 100px 5%;
+  align-items: center;
+}
+
+.mobile_app div {
+  width: 50%;
+}
+
+.apps h2 {
+  font-weight: 700;
+  font-size: 60px;
+  padding-bottom: 120px;
+}
+
+.apps2 {
+  padding-left: 0;
+}
+
+.apps2 img {
+  max-width: 850px;
+}

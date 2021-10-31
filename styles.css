@@ -104,3 +104,38 @@ nav a:hover::before {
   overflow: hidden;
   text-align: center;
 }
+
+/*Menu items styles*/
+.menu {
+  padding: 100px 0px;
+}
+.menu h3 {
+  display: block;
+  text-align: center;
+}
+
+.menu_container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu_item {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  box-shadow: 5px 10px;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.menu_item img {
+  max-height: 200px;
+}

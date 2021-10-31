@@ -312,3 +312,8 @@ nav a:hover::before {
   display: inline-block;
   padding-left: 15px;
 }
+
+.footer1 div input {
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px 0px 0px 10px;
+}

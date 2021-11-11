@@ -157,7 +157,7 @@ nav a:hover::before {
 /*Menu items styles*/
 .menu {
   background-color: #fff;
-  padding: 100px 0px;
+  padding: 80px 0px;
 }
 .menu h3 {
   display: block;
@@ -175,12 +175,12 @@ nav a:hover::before {
 }
 
 .menu_item {
-  height: 750px;
-  width: 500px;
-  padding: 100px 45px;
+  height: 640px;
+  width: 430px;
+  padding: 40px 45px;
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.5);
   border-radius: 70px;
-  margin: 30px;
+  margin: 35px 25px;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -188,30 +188,30 @@ nav a:hover::before {
 }
 
 .menu_item h4 {
-  font-size: 40px;
+  font-size: 38px;
   color: rgb(68, 4, 4);
   font-weight: 600;
-  padding: 25px 0px 25px 0px;
+  padding: 15px 0px 10px 0px;
 }
 
 .menu_item p {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .menu_item img {
-  max-height: 200px;
+  max-height: 240px;
 }
 
 .price {
   display: flex;
   justify-content: space-between;
-  padding: 60px 15px 40px 40px;
+  padding: 30px 10px 10px 15px;
   align-items: center;
 }
 
 .price h5 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
 }
 
@@ -299,6 +299,26 @@ nav a:hover::before {
   font-weight: 500;
 }
 
+.footer1 div input {
+  height: 70px;
+  width: 330px;
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px 0px 0px 10px;
+  border-right: 0px;
+  margin: 0px;
+}
+
+.footer1 button {
+  height: 70px;
+  width: 180px;
+  border: none;
+  background-color: #f6b400;
+  margin: 50px 0px 0px -5px;
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+}
+
 .footer2 {
   display: flex;
   justify-content: space-between;
@@ -313,7 +333,3 @@ nav a:hover::before {
   padding-left: 15px;
 }
 
-.footer1 div input {
-  padding: 10px 0px 10px 0px;
-  border-radius: 10px 0px 0px 10px;
-}

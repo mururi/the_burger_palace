@@ -12,7 +12,7 @@ This is a Burger restaurant website with a complete menu and services list. The 
 Ensure that your device of choice has a browser installed.
 Click the link provided below to view the site.
 
-https://mururi.github.io/letuce_eat/
+https://mururi.github.io/the_burger_palace/
 
 ## Technologies Used 
 * HTML - This was used to build the structure of the web pages.

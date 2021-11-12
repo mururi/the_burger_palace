@@ -107,15 +107,15 @@ nav a:hover::before {
   justify-content: space-between;
   align-items: center;
   padding: 200px 5%;
-  max-height: 960px;
+  height: 960px;
 }
 
 .column1 {
-  height: 500px;
-  width: 450px;
+  height: 435px;
+  width: 410px;
   padding: 60px 35px 60px 35px;
   border: 2px solid black;
-  border-radius: 25px;
+  border-radius: 20px;
   margin: 15px;
   position: relative;
   overflow: hidden;
@@ -123,10 +123,10 @@ nav a:hover::before {
 }
 
 .column1 h4 {
-  font-size: 40px;
+  font-size: 38px;
   color: rgb(68, 4, 4);
   font-weight: 600;
-  padding: 30px 0px 30px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 .column1 p {
@@ -135,12 +135,12 @@ nav a:hover::before {
 }
 
 .column2 {
-  height: 600px;
-  width: 450px;
+  height: 560px;
+  width: 485px;
   padding: 130px 35px 100px 35px;
   border: 2px solid black;
-  border-radius: 25px;
-  margin: 15px;
+  border-radius: 20px;
+  margin: 0px;
   position: relative;
   overflow: hidden;
   text-align: center;
